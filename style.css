@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0px 4px 0px 0px rgb(228, 228, 228);
+}
+
+input:focus {
+    outline: none !important;
+    border-color: #6098d4;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+#add__user,
+#reset__user,
+#cenzor {
+    width: 14%;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: 0.5s;
+    margin-left: 15px;
+}
+
+#reset__user {
+    background-color: rgb(201, 51, 51);
+}
+#add__user {
+    background-color: rgb(240, 240, 8);
+    color: black;
+}
+
+.container {
+    height: 200px;
+    width: 30%;
+    margin: 150px auto;
+}
+
+.input__form {
+    margin-top: 10px;
+    display: flex;
+}
+
+.container__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(241, 241, 241);
+}
+
+#textarea {
+    margin-top: 10px;
+    width: 100%;
+    height: 55px;
+}
+
+#cenzor {
+    margin: 15px 0 0 0;
+    width: 100%;
+    height: 35px;
+    background-color: #6098d4;
+}
+
+input {
+    padding: 5px;
+    height: 36px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 3px;
+    width: 100%;
+}
+
+textarea {
+    height: 26px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 3px;
+    width: 100%;
+}
+span{
+    color: rgb(207, 95, 95);
+}
